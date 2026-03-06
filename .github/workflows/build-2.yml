@@ -4,6 +4,7 @@ on:
   workflow_run:
     workflows: ["The first build"]
     types: [completed]
+    conclusion: success
 
 jobs:
   build:
